@@ -1,6 +1,6 @@
 import Professional from './Professional'
 
-export default interface Query extends Professional {
+export default interface QueryData extends Professional {
     id: number
     date: string
     time: string

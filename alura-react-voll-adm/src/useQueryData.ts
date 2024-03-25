@@ -1,6 +1,6 @@
-import Query from './types/Query'
+import Query from './types/QueryData'
 import useFetch from './useFetch'
 
 export default function useQueryData() {
-    return useFetch<Query[]>({ url: 'consultas' })
+    return useFetch<Query[]>({ url: 'querys' })
 }
