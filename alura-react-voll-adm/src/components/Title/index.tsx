@@ -1,6 +1,6 @@
-import rating from './assets/avaliacao.png'
-import graph from './assets/grafico.png'
-import query from './assets/consulta.png'
+import rating from './assets/rating.png'
+import graph from './assets/graph.png'
+import query from './assets/query.png'
 import { ReactNode } from 'react'
 import styled from 'styled-components'
 

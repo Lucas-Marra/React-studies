@@ -13,8 +13,6 @@ export default function Assessment({ professionals }: { professionals: Professio
     return (
         <CardSection>
             {professionals?.map((professional) => {
-                console.log(professional)
-
                 return <Card professional={professional} />
             })}
         </CardSection>
