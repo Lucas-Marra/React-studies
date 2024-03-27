@@ -7,6 +7,7 @@ import DataTable from './Tabela'
 import useQueryData from './useQueryData'
 import Graph from './components/Graph'
 import useProfessionalsData from './useProfessionalsData'
+import Assessment from './components/Assessment'
 
 function App() {
     const { data: queryData, error: queryError } = useQueryData()
@@ -23,6 +24,7 @@ function App() {
                 <Title />
                 <DataTable querys={queryData} />
                 <Graph querys={queryData} professionals={professionalData} />
+                <Assessment professionals={professionalData} />
             </Container>
             <Footer />
         </>
